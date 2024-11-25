@@ -1,0 +1,94 @@
+body {
+    /* background-color: #f8f9fa; Color de fondo general */
+    /* background-color: rgba(0, 0, 0, 0.856); */
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+    background-color: #007bff;
+    /* Color de fondo del header */
+    color: white;
+    /* Color del texto del header */
+    padding: 5px 5spx;
+    /* Espaciado interno */
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Transiciones suaves */
+}
+
+.card-bg {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    /* Altura fija para las tarjetas */
+}
+
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo semi-transparente para el texto */
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Sombra más intensa al hacer hover */
+}
+
+.btn-custom {
+    background-color: #007bff;
+    /* Color del botón */
+    color: whitesmoke;
+    /* Color del texto */
+}
+
+.btn-custom:hover {
+    color: white;
+    /* Color del texto */
+    background-color: #0056b3;
+    /* Color al pasar el mouse   */
+}
+
+footer {
+    /* background-color: #343a40; Color de fondo del footer */
+    /* color: white; Color del texto del footer */
+    padding: 10px 0;
+    /* Espaciado vertical */
+    /* height: 90px; */
+}
+
+.reducir {
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+}
+
+/* fuente para el nombre de la escuela */
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 1000 */
+.dm-sans-efp7 {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* linea de comentario sin ningun sentido */
+
+/* ultimo cambio */
